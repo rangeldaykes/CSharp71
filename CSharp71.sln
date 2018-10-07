@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2036
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01-AsyncMain", "01-AsyncMain", "{6202672B-A429-4199-A1F9-69008B03B505}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AsyncMain", "AsyncMain\AsyncMain.csproj", "{026E5624-3936-4F45-A9F4-A95B3C0ACE4A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02-DefaultLiteralExpressions", "02-DefaultLiteralExpressions", "{A294AA4B-2519-4533-88BE-E0B231F901D5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DefaultLiteralExpressions", "DefaultLiteralExpressions\DefaultLiteralExpressions.csproj", "{136C3D76-8F9C-4D97-90AC-BF5A3C383316}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03-InferredTupleElementNames", "03-InferredTupleElementNames", "{2D704917-C80D-465B-8DE9-05649E2D01DB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InferredTupleElementNames", "InferredTupleElementNames\InferredTupleElementNames.csproj", "{2534D6D4-94E0-4E3A-A6CD-F097D6218878}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{026E5624-3936-4F45-A9F4-A95B3C0ACE4A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{026E5624-3936-4F45-A9F4-A95B3C0ACE4A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{026E5624-3936-4F45-A9F4-A95B3C0ACE4A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{026E5624-3936-4F45-A9F4-A95B3C0ACE4A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{136C3D76-8F9C-4D97-90AC-BF5A3C383316}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{136C3D76-8F9C-4D97-90AC-BF5A3C383316}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{136C3D76-8F9C-4D97-90AC-BF5A3C383316}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{136C3D76-8F9C-4D97-90AC-BF5A3C383316}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2534D6D4-94E0-4E3A-A6CD-F097D6218878}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2534D6D4-94E0-4E3A-A6CD-F097D6218878}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2534D6D4-94E0-4E3A-A6CD-F097D6218878}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2534D6D4-94E0-4E3A-A6CD-F097D6218878}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{026E5624-3936-4F45-A9F4-A95B3C0ACE4A} = {6202672B-A429-4199-A1F9-69008B03B505}
+		{136C3D76-8F9C-4D97-90AC-BF5A3C383316} = {A294AA4B-2519-4533-88BE-E0B231F901D5}
+		{2534D6D4-94E0-4E3A-A6CD-F097D6218878} = {2D704917-C80D-465B-8DE9-05649E2D01DB}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {89A0385A-683D-4BDF-982E-D312EF4A4751}
+	EndGlobalSection
+EndGlobal
